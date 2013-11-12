@@ -1,0 +1,26 @@
+{
+  "name": "QuickChat",
+  "version": "0.0.1",
+  "description": "An Easy way to chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoinejaussoin/quickchat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Antoine Jaussoin",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/antoinejaussoin/quickchat/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "jade": "~0.35.0",
+    "socket.io": "~0.9.16"
+  }
+}
